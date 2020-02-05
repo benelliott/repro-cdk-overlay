@@ -1,0 +1,10 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.backdrop {
+  background: rgba(255, 0, 0, 0.4);
+}
+
+.overlay {
+  background: white;
+  padding: 12px;
+}

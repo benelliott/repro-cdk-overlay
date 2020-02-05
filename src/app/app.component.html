@@ -1,0 +1,7 @@
+<button cdkOverlayOrigin #origin="cdkOverlayOrigin" (click)="handleTriggerClick()">trigger</button>
+<ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="origin" [cdkConnectedOverlayOpen]="overlayIsOpen"
+             cdkConnectedOverlayHasBackdrop cdkConnectedOverlayBackdropClass="backdrop" (backdropClick)="handleBackdropClick()">
+<div class="overlay">
+  I am an overlay
+</div>
+</ng-template>
